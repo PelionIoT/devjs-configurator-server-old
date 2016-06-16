@@ -9,7 +9,7 @@ var devjs_configurator = require('devjs-configurator')
 const configurations = new Map()
 
 module.exports = {
-	setModuleConfiguration: function(moduleName,configuration){
+	setModuleConfig: function(moduleName,configuration){
         configurations.set(moduleName, configuration);
         return Promise.resolve();
 	},
