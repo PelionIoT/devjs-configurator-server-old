@@ -11,7 +11,8 @@
   "engines" : { "node" : ">=0.12" },
   "dependencies": {
     "express": "4.11.1",
-    "body-parser": "1.13.2"
+    "body-parser": "1.13.2",
+    "devjs-configurtator": "http://github.com/WigWagCo/devjs-configurator#devicejs2.0-compatibility"
   }
 }
 
