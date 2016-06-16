@@ -4,7 +4,7 @@ const http = require('http')
 const express = require('express')
 const bodyParser = require('body-parser')
 
-var devjs_configurator = require('../devjs-configurator')
+var devjs_configurator = require('devjs-configurator')
 
 const configurations = new Map()
 
